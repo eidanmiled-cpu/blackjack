@@ -1,0 +1,49 @@
+
+
+h1{
+    color: goldenrod;
+    text-align: center;
+}
+.c1{
+    flex: column;
+    margin: 5px;
+    margin-top: 5px;
+    color: rgb(230, 224, 214);
+}
+body{
+    background-image: url("./ok.png"); 
+    background-image: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+/* Removed empty ruleset for #message-el */
+#message-el{
+    font-style: italic;
+}
+button{
+    padding-bottom: 5px;
+    color: rgb(153, 165, 45);
+    width:150px;
+    background:goldenrod;
+    padding-top: 5px;
+    padding-bottom:5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+.container{
+    display: flex;           /* ✅ Ajouté */
+    flex-direction: column;  /* ✅ Ajouté */
+    gap: 4px;              /* ✅ ESPACE entre les boutons */
+    align-items: center;     /* ✅ Centrer les boutons */
+    margin-top: 20px;       /* ✅ Espace au-dessus du container */
+    
+}
+
